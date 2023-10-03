@@ -6,7 +6,7 @@ WordPress theme for the Red Acre Task
 
 To run this project, install it locally using Docker:
 
-- Within your project folder run command:
+Within your project folder run command:
 
 ```
 docker pull irsilviana/wp-red-acre:1.0
