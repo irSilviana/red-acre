@@ -23,3 +23,46 @@ Google: Dongle | Inter
 Weight: 400, 700 | 400,600
 
 */
+
+/* font-weight: 400;  */
+@font-face {
+  font-family: "dongle-regular";
+  src: url("/wp-content/themes/red-acre/fonts/Dongle-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* font-weight: 700;  */
+@font-face {
+  font-family: "dongle-bold";
+  src: url("/wp-content/themes/red-acre/fonts/Dongle-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* font-weight: 400;  */
+@font-face {
+  font-family: "inter-regular";
+  src: url("/wp-content/themes/red-acre/fonts/Inter-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* font-weight: 600;  */
+@font-face {
+  font-family: "inter-semibold";
+  src: url("/wp-content/themes/red-acre/fonts/Inter-SemiBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "dongle-regular", Arial, sans-serif;
+}
