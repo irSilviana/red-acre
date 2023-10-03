@@ -22,6 +22,8 @@ docker-compose up -d
 
 ## Access the WordPress website
 
+Go to your browser with address: localhost:8000
+
 To access the admin panel, use below credentials:
 
 ```
