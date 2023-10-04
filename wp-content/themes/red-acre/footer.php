@@ -2,17 +2,11 @@
     <section class="footer d-flex flex-column">
         <div class="container footer-nav-wrapper row d-flex flex-wrap flex-md-nowrap flex-column flex-sm-row justify-content-between align-items-start order-sm-0">
             <div class="footer-main-nav order-lg-0">
-                <h2>
-                    Trading
-                </h2>
-                <ul class="footer-nav">
-                    <li>Features</li>
-                    <li>Products & Spreads</li>
-                    <li> Account Types</li>
-                    <li>Metatrader</li>
-                    <li>Demo Account</li>
-                    <li>Funded Accounts</li>
-                </ul>
+                <?php wp_nav_menu(array(
+                    'theme_location' => 'footer_1',
+                    'menu_class' => 'footer-nav',
+                    'depth' => 2,
+                )) ?>
             </div>
             <div class="footer-main-nav order-lg-5">
                 <h2>
