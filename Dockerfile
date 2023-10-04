@@ -10,5 +10,5 @@ ENV WORDPRESS_DB_HOST=localhost \
     WORDPRESS_TABLE_PREFIX=wp_
 
 # COPY plugins/ /var/www/html/wp-content/plugins
-# COPY wp-content/themes/red-acre /var/www/html/wp-content/themes/red-acre
-# COPY wp-content/uploads/ /var/www/html/wp-content/uploads
+COPY wp-content/themes/red-acre /var/www/html/wp-content/themes/red-acre
+COPY wp-content/uploads/ /var/www/html/wp-content/uploads
