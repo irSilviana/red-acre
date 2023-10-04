@@ -70,9 +70,11 @@
 
         <div class="container footer-legal-nav row order-sm-3">
             <ul class="d-flex  flex-column flex-sm-row justify-content-center">
-                <li>Risk Disclosure</li>
-                <li>Terms & Conditions</li>
-                <li>Privacy Policy</li>
+                <?php wp_nav_menu(array(
+                    'theme_location' => 'legal',
+                    'menu_class' => 'footer-legal-nav ul d-flex flex-column flex-sm-row justify-content-center',
+                    'depth' => 1,
+                )) ?>
             </ul>
         </div>
     </section>

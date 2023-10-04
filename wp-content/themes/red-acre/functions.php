@@ -31,5 +31,6 @@ register_nav_menus(
         'footer_4'  => esc_html__('Footer 4 menu', 'red-acre'),
         'footer_5'  => esc_html__('Footer 5 menu', 'red-acre'),
         'footer_6'  => esc_html__('Footer 6 menu', 'red-acre'),
+        'legal'  => esc_html__('Legal menu', 'red-acre'),
     )
 );

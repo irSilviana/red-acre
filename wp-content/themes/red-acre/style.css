@@ -293,9 +293,10 @@ ul.footer-nav a {
 .footer-legal-nav ul {
   list-style: none;
   gap: 36px;
+  padding-left: 0;
 }
 
-.footer-legal-nav li {
+.footer-legal-nav li a {
   color: #8a94f7;
   font-feature-settings: "clig" off, "liga" off;
   font-family: var(--db-font-family);
@@ -304,6 +305,7 @@ ul.footer-nav a {
   font-weight: 700;
   line-height: 24.528px;
   text-transform: capitalize;
+  text-decoration: none;
 }
 
 /* Media Breakpoints */
@@ -335,7 +337,12 @@ ul.footer-nav a {
   ul.footer-nav li li a {
     font-size: 20px;
   }
+  .footer-disclosure p {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
+
 @media (max-width: 990px) {
   .home .hero {
     min-height: 600px;
