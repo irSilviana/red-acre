@@ -16,7 +16,7 @@
                 <div class="row">
                     <div class="col-12">
                         <h2>Tools to Compliment Your Trading</h2>
-                        <p class="sub-heading text-center py-5">Access news & economic calendar, technical indicators & charts, Forex Calculators, educational resources and many more tools to help you excel.</p>
+                        <p class="sub-heading text-start text-md-center py-5">Access news & economic calendar, technical indicators & charts, Forex Calculators, educational resources and many more tools to help you excel.</p>
                     </div>
                     <div class="col-12">
                         <div class="row d-flex flex-wrap flex-row justify-content-between services-items">

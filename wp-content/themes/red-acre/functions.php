@@ -25,6 +25,11 @@ add_action('wp_enqueue_scripts', 'red_acre_load_scripts');
 register_nav_menus(
     array(
         'primary' => esc_html__('Primary menu', 'red-acre'),
-        'footer'  => esc_html__('Secondary menu', 'red-acre'),
+        'footer_1'  => esc_html__('Footer 1 menu', 'red-acre'),
+        'footer_2'  => esc_html__('Footer 2 menu', 'red-acre'),
+        'footer_3'  => esc_html__('Footer 3 menu', 'red-acre'),
+        'footer_4'  => esc_html__('Footer 4 menu', 'red-acre'),
+        'footer_5'  => esc_html__('Footer 5 menu', 'red-acre'),
+        'footer_6'  => esc_html__('Footer 6 menu', 'red-acre'),
     )
 );

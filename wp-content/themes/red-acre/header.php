@@ -8,9 +8,9 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <div id="page" class="site container">
+    <div id="page" class="site ">
         <header>
-            <section class="top-bar">
+            <section class="top-bar container">
                 <div class="logo"><img src="wp-content\themes\red-acre\assets\images\logo.svg" alt="site-logo" srcset=""></div>
                 <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
                     <div class="container">
@@ -18,7 +18,7 @@
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'red-acre'); ?>">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Navbar</a>
+                        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
                         <?php
                         wp_nav_menu(array(
                             'theme_location'  => 'primary',
