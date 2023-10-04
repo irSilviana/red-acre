@@ -1,7 +1,8 @@
 <footer class="site-footer ">
     <section class="footer d-flex flex-column">
-        <div class="container footer-nav-wrapper row d-flex flex-wrap flex-md-nowrap flex-column flex-sm-row justify-content-between align-items-start order-sm-0">
+        <div class="container footer-nav-wrapper row d-flex flex-wrap flex-md-nowrap flex-column flex-sm-row justify-content-md-between align-items-start order-sm-0">
             <div class="footer-main-nav order-lg-0">
+                <!-- Trading -->
                 <?php wp_nav_menu(array(
                     'theme_location' => 'footer_1',
                     'menu_class' => 'footer-nav',
@@ -9,50 +10,51 @@
                 )) ?>
             </div>
             <div class="footer-main-nav order-lg-5">
-                <h2>
-                    Resources
-                </h2>
-                <ul class="footer-nav">
-                    <li>Economic Calculator</li>
-                    <li>Forex Calculators</li>
-                    <li>Interest Calculator</li>
-                    <li>Educational Blogs</li>
-                </ul>
+                <!-- Resources -->
+                <?php wp_nav_menu(array(
+                    'theme_location' => 'footer_6',
+                    'menu_class' => 'footer-nav',
+                    'depth' => 2,
+                )) ?>
             </div>
             <div class="footer-main-nav order-lg-1">
-                <h2>
-                    Affiliate
-                </h2>
-                <ul class="footer-nav">
-                    <li>Afilliate Program</li>
-                    <li>PAMM Accounts</li>
-                </ul>
+                <!-- Affiliate -->
+                <?php wp_nav_menu(array(
+                    'theme_location' => 'footer_2',
+                    'menu_class' => 'footer-nav',
+                    'depth' => 2,
+                )) ?>
             </div>
             <div class="footer-main-nav order-lg-3">
-                <h2>
-                    Learn
-                </h2>
-                <ul class="footer-nav">
-                    <li>Education</li>
-                    <li>News</li>
-                </ul>
+                <!-- Learn -->
+                <?php wp_nav_menu(array(
+                    'theme_location' => 'footer_4',
+                    'menu_class' => 'footer-nav',
+                    'depth' => 2,
+                )) ?>
             </div>
             <div class="footer-main-nav order-lg-4">
-                <h2>
-                    About
-                </h2>
-                <ul class="footer-nav">
-                    <li>About Us</li>
-                </ul>
+                <!-- About -->
+                <?php wp_nav_menu(array(
+                    'theme_location' => 'footer_5',
+                    'menu_class' => 'footer-nav',
+                    'depth' => 2,
+                )) ?>
             </div>
             <div class="footer-main-nav order-lg-2">
-                <h2>
+                <!-- Help -->
+                <?php wp_nav_menu(array(
+                    'theme_location' => 'footer_3',
+                    'menu_class' => 'footer-nav',
+                    'depth' => 2,
+                )) ?>
+                <!-- <h2>
                     Help
                 </h2>
                 <ul class="footer-nav">
                     <li>FAQ</li>
                     <li>Contact Us</li>
-                </ul>
+                </ul> -->
             </div>
         </div>
         <div class="container footer-disclosure row order-sm-2">
