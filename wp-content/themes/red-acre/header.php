@@ -11,9 +11,9 @@
     <div id="page" class="site ">
         <header>
             <section class="top-bar">
-                <div class="container">
-                    <div class="row  d-flex flex-row justify-content-beetwen align-items-center">
-                        <div class="col-2 logo d-flex align-items-center">
+                <div class="container px-0">
+                    <div class="row d-flex flex-row justify-content-beetwen align-items-center mx-0 ">
+                        <div class="col col-xxl-2 logo d-flex align-items-center px-0">
                             <?php
                             if (has_custom_logo()) {
 
@@ -28,7 +28,7 @@
                             }
                             ?>
                         </div>
-                        <div class="col my-4 d-flex flex-row justify-content-end">
+                        <div class="col-4 col-xxl my-4 d-flex flex-row justify-content-end px-0">
                             <div class="row menu-area-wrapper d-flex flex-row justify-content-end align-items-center flex-nowrap">
                                 <div class="col menu-area order-2 order-xxl-1">
                                     <nav class="main-nav">
@@ -40,17 +40,15 @@
                                         )); ?>
                                     </nav>
                                 </div>
-                                <div class="col login-signup d-flex flex-row order-1 order-xxl-2">
-                                    <button><a href="#">Login</a></button>
+                                <div class="col login-signup d-flex flex-row justify-content-end order-1 order-xxl-2">
+                                    <button><a href="#">Log In</a></button>
                                     <button><a href="#">Sign Up</a></button>
                                 </div>
                             </div>
 
 
                         </div>
-
                     </div>
                 </div>
             </section>
-
         </header>

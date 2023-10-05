@@ -299,6 +299,10 @@ a.toggle-nav {
   margin: 0 auto;
 }
 
+.services-items div {
+  max-width: 350px;
+}
+
 .services-items :nth-of-type(2) {
   border-radius: 24px;
   border: 4px solid #6371f4;
@@ -486,9 +490,15 @@ ul.footer-nav a {
 }
 
 @media (max-width: 768px) {
-  .home .hero {
+  /* .home .hero {
     background-position: 100% 100%;
     background-size: 100%;
+  } */
+
+  .home .hero {
+    background-position: 60% 100%;
+    background-size: 500px;
+    min-height: 700px;
   }
 
   .home h1 {
@@ -524,10 +534,6 @@ ul.footer-nav a {
 }
 
 @media (max-width: 767.9px) {
-  /* ul.footer-nav {
-    margin-left: -10px;
-  } */
-
   .footer-legal-nav ul {
     gap: 12px;
     align-items: center;
@@ -544,6 +550,13 @@ ul.footer-nav a {
     text-align: left;
   }
 
+  .home .services .sub-heading {
+    font-family: var(--db-font-family);
+    line-height: 24px;
+  }
+  .services-items div {
+    max-width: 260px;
+  }
   .footer {
     padding: 24px 16px 86px;
     gap: 24px;
@@ -561,8 +574,17 @@ ul.footer-nav a {
 }
 
 @media (max-width: 1400px) {
+  img.custom-logo {
+    width: 85%;
+    height: auto;
+    min-width: 60px;
+  }
+
+  .login-signup button {
+    padding: 0 12px;
+  }
+
   a.toggle-nav {
-    /* float: right; */
     margin: 0 auto;
     display: inline-block !important;
     color: black;
@@ -580,12 +602,12 @@ ul.footer-nav a {
     align-items: start;
   }
 
-  /* nav.main-nav, */
   .top-bar {
     display: inline-block;
     position: relative;
     margin: 0;
     width: 100%;
+    padding: 0 16px;
   }
 
   .menu-header-menu-container {
@@ -671,32 +693,4 @@ ul.footer-nav a {
   .login-signup a {
     font-size: 18px;
   }
-
-  /* .menu-header-menu-container {
-    display: inline-block;
-    position: relative;
-    margin: 0;
-    width: 100%;
-  }
-
-  ul#menu-header-menu,
-  .menu-header-menu-container ul {
-    display: none;
-    position: absolute;
-    top: 80%;
-    right: 0px;
-    min-width: 200px;
-    background-color: #7b3d84;
-    font-size: 1.2em;
-  }
-
-  .menu-header-menu-container li {
-    display: block;
-    float: none;
-    padding-right: 2%;
-    text-align: right;
-  }
-  .menu-header-menu-container ul li:hover > ul {
-    display: none;
-  } */
 }
