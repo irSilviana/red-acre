@@ -161,7 +161,7 @@ a.site-title-text {
 
 .main-nav ul ul li a:hover {
   border-bottom: none;
-  margin-top: 0;
+  margin-top: 0px;
   color: #6371f4;
 }
 
@@ -221,7 +221,6 @@ a.toggle-nav {
 }
 
 .home .hero {
-  /* background-image: url("/wp-content/themes/red-acre/assets/images/HERO.png"); */
   background-position: 95% 100%;
   background-repeat: no-repeat;
   background-size: 70%;
@@ -676,10 +675,10 @@ ul.footer-nav a {
     border-radius: 0;
   }
 
-  .main-nav ul li a:hover {
+  .main-nav ul > li > a:hover {
     color: #6371f4;
     border-bottom: 0px;
-    margin-top: 8px;
+    margin-top: 0px;
     transition-timing-function: ease-in-out;
   }
 
@@ -687,8 +686,19 @@ ul.footer-nav a {
     border-bottom: 0px;
   }
 
-  ul.sub-menu {
-    margin-top: 0;
+  .main-nav ul li a::after {
+    padding: 15px 0 0;
+    margin: -20px 0 0;
+  }
+
+  .main-nav ul li a:hover::after {
+    margin-top: -20px;
+    padding-top: 0;
+    transform: rotate(180deg);
+  }
+  .main-nav ul ul li a:hover {
+    border-bottom: none;
+    margin: 0;
   }
 
   .login-signup a {
