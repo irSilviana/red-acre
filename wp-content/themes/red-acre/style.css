@@ -447,6 +447,10 @@ ul.footer-nav a {
   text-decoration: none;
 }
 
+.error-404 p {
+  font-size: 1.5rem;
+}
+
 /* Media Breakpoints */
 @media (min-width: 991px) and (max-width: 1600px) {
   .home .hero {
