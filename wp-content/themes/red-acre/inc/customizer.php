@@ -6,7 +6,7 @@ function red_acre_customizer($wp_customize)
     $wp_customize->add_section(
         'sec_hero',
         array(
-            'title' => __('Hero Section', 'red-acre'),
+            'title' => __('Main Page Hero Section', 'red-acre'),
         )
     );
 
@@ -24,10 +24,109 @@ function red_acre_customizer($wp_customize)
         'set_hero_background',
         array(
             'label' => __('Hero Image', 'red-acre'),
+            'description' => __('Recommended size 1130 x 958 pixels'),
             'section' => 'sec_hero',
             'mime_type' => 'image'
         )
     ));
+
+    // Title
+    $wp_customize->add_setting(
+        'set_hero_title',
+        array(
+            'type' => 'theme_mod',
+            'default' => __('Please, add some title', 'red-acre'),
+            'sanitize_callback' => 'sanitize_text_field'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_hero_title',
+        array(
+            'label' => __('Hero Title', 'red-acre'),
+            'description' => __('Please, type your title here', 'red-acre'),
+            'section' => 'sec_hero',
+            'type' => 'text'
+        )
+    );
+
+    // Subtitle
+    $wp_customize->add_setting(
+        'set_hero_subtitle',
+        array(
+            'type' => 'theme_mod',
+            'default' => __('Please, add some subtitle', 'red-acre'),
+            'sanitize_callback' => 'sanitize_textarea_field'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_hero_subtitle',
+        array(
+            'label' => __('Hero Subtitle', 'red-acre'),
+            'description' => __('Please, type your subtitle here', 'red-acre'),
+            'section' => 'sec_hero',
+            'type' => 'textarea'
+        )
+    );
+
+    // 3 List data
+    $wp_customize->add_setting(
+        'set_hero_list_1',
+        array(
+            'type' => 'theme_mod',
+            'default' => __('Please, add some list_1', 'red-acre'),
+            'sanitize_callback' => 'sanitize_text_field'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_hero_list_1',
+        array(
+            'label' => __('Hero list 1', 'red-acre'),
+            'description' => __('Please, type your first list here', 'red-acre'),
+            'section' => 'sec_hero',
+            'type' => 'text'
+        )
+    );
+
+    $wp_customize->add_setting(
+        'set_hero_list_2',
+        array(
+            'type' => 'theme_mod',
+            'default' => __('Please, add some list_2', 'red-acre'),
+            'sanitize_callback' => 'sanitize_text_field'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_hero_list_2',
+        array(
+            'label' => __('Hero list 2', 'red-acre'),
+            'description' => __('Please, type your second list here', 'red-acre'),
+            'section' => 'sec_hero',
+            'type' => 'text'
+        )
+    );
+
+    $wp_customize->add_setting(
+        'set_hero_list_3',
+        array(
+            'type' => 'theme_mod',
+            'default' => __('Please, add some list_3', 'red-acre'),
+            'sanitize_callback' => 'sanitize_text_field'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_hero_list_3',
+        array(
+            'label' => __('Hero list 3', 'red-acre'),
+            'description' => __('Please, type your third list here', 'red-acre'),
+            'section' => 'sec_hero',
+            'type' => 'text'
+        )
+    );
 
     // 2 Social Media
     $wp_customize->add_section(
