@@ -2,8 +2,8 @@
 <div id="content" class="site-content container">
     <div id="primary" class="content-area">
         <main id="main" class="site-main">
-            <section class="hero container row d-flex align-items-start align-items-lg-center">
-                <div class="col-sm-12 col-lg-6 col-xl-5 col-xxl-4 mb-5 pb-5">
+            <section class="hero container row d-flex align-items-start align-items-lg-center px-3 py-4">
+                <div class="col-sm-12 col-lg-6 col-xl-5 col-xxl-4 mb-5 pb-5 px-0">
                     <h1>Tighter Spreads & Faster Execution</h1>
                     <p class="sub-heading">With Forex Bros you trade with the best in the biz! With quality execution and some of the best trading conditions in the industry, your trading experience will be none other than epic.</p>
                     <ul>

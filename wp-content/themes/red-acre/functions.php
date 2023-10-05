@@ -8,6 +8,8 @@ function red_acre_load_scripts()
 
     // Scripts
     wp_enqueue_style('red-acre-style', get_stylesheet_uri(), array(), filemtime(get_template_directory() . '/style.css'), 'all');
+
+    wp_enqueue_script('burger-menu-script', get_stylesheet_directory_uri() . '/assets/js/burger-menu.js', array('jquery'), null, true);
 }
 add_action('wp_enqueue_scripts', 'red_acre_load_scripts');
 
