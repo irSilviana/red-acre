@@ -1,4 +1,7 @@
 <?php
+// Register Customizer
+require get_template_directory() . '/inc/customizer.php';
+
 
 function red_acre_load_scripts()
 {
@@ -37,5 +40,19 @@ function red_acre_config()
         'flex-height' => true,
         'flex-width' => true
     ));
+
+    add_theme_support('post-thumbnails');
+
+    add_theme_support('automatic-feed-links');
+    add_theme_support('html5', array('comment-list', 'comment-form', 'search-form', 'gallery', 'caption', 'style', 'script'));
 }
 add_action('after_setup_theme', 'red_acre_config', 0);
+
+
+// Add theme compatibility with version older than 5.2
+if (!function_exists('wp_body_open')) {
+    function wp_body_open()
+    {
+        do_action('wp_body_open');
+    }
+}

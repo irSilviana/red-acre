@@ -51,14 +51,37 @@
             </div>
         </div>
         <div class="container footer-disclosure row order-sm-2">
-            <p>RISK DISCLOSURE:*The services and information provided by The Bored Traders Club are not directed at citizens or residents in the USA. Additionally, they are not intended for distribution to or used by any individual in any jurisdiction where such distribution would be contrary to local law or regulation.
-            </p>
+            <p><?php esc_html_e(get_theme_mod('set_disclosure', __('RISK DISCLOSURE:*The services and information provided by The Bored Traders Club are not directed at citizens or residents in the USA.', 'red-acre'))); ?></p>
         </div>
         <div class="container footer-social-wrapper d-flex justify-content-center order-sm-1">
-            <div class="social-icon "><img src="/wp-content/uploads/2023/10/Instagram.png" alt=""></div>
-            <div class="social-icon"><img src="/wp-content/uploads/2023/10/Twitter.png" alt=""></div>
-            <div class="social-icon"><img src="/wp-content/uploads/2023/10/Facebook.png" alt=""></div>
-            <div class="social-icon"><img src="/wp-content/uploads/2023/10/LinkedIn.png" alt=""></div>
+            <?php
+            // Get data for the social media icons
+            $set_sosmed_icon_1_img = wp_get_attachment_url(get_theme_mod('set_sosmed_icon_1_img'));
+            $set_sosmed_icon_2_img = wp_get_attachment_url(get_theme_mod('set_sosmed_icon_2_img'));
+            $set_sosmed_icon_3_img = wp_get_attachment_url(get_theme_mod('set_sosmed_icon_3_img'));
+            $set_sosmed_icon_4_img = wp_get_attachment_url(get_theme_mod('set_sosmed_icon_4_img'));
+
+            // Get data for the social media URLs
+            $set_sosmed_icon_1_link =  get_theme_mod('set_sosmed_icon_1_link');
+            $set_sosmed_icon_2_link =  get_theme_mod('set_sosmed_icon_2_link');
+            $set_sosmed_icon_3_link =  get_theme_mod('set_sosmed_icon_3_link');
+            $set_sosmed_icon_4_link =  get_theme_mod('set_sosmed_icon_4_link');
+            ?>
+
+            <div class="social-icon ">
+                <a href="<?php echo esc_url($set_sosmed_icon_1_link) ?>" target="_blank" rel="noopener noreferrer"><img src="<? echo esc_url($set_sosmed_icon_1_img); ?>" alt=""></a>
+            </div>
+            <div class="social-icon ">
+                <a href="<?php echo esc_url($set_sosmed_icon_2_link) ?>" target="_blank" rel="noopener noreferrer"><img src="<? echo esc_url($set_sosmed_icon_2_img); ?>" alt="">
+                </a>
+            </div>
+            <div class="social-icon ">
+                <a href="<?php echo esc_url($set_sosmed_icon_3_link) ?>" target="_blank" rel="noopener noreferrer"><img src="<? echo esc_url($set_sosmed_icon_3_img); ?>" alt=""></a>
+            </div>
+            <div class="social-icon ">
+                <a href="<?php echo esc_url($set_sosmed_icon_4_link) ?>" target="_blank" rel="noopener noreferrer"><img src="<? echo esc_url($set_sosmed_icon_4_img); ?> " alt=""></a>
+            </div>
+
         </div>
 
         <div class="container footer-legal-nav row order-sm-3">

@@ -166,7 +166,6 @@ a.site-title-text {
 }
 
 .main-nav ul li a:hover::after {
-  content: url("/wp-content/themes/red-acre/assets/images/angle-down.svg");
   margin-top: -22px;
   transform: rotate(180deg);
 }
@@ -222,7 +221,7 @@ a.toggle-nav {
 }
 
 .home .hero {
-  background-image: url("/wp-content/themes/red-acre/assets/images/HERO.png");
+  /* background-image: url("/wp-content/themes/red-acre/assets/images/HERO.png"); */
   background-position: 95% 100%;
   background-repeat: no-repeat;
   background-size: 70%;

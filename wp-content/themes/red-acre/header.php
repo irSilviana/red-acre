@@ -46,8 +46,6 @@
                                     <button><a href="#"><?php esc_html_e('Sign Up', 'red-acre') ?></a></button>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
