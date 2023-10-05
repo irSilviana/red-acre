@@ -91,6 +91,123 @@ body {
   align-items: center;
 }
 
+.logo {
+  gap: 24px;
+}
+
+.site-title-text,
+a.site-title-text {
+  color: #000;
+  font-family: var(--db-font-family);
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.main-nav ul {
+  margin-bottom: 0;
+}
+
+.main-nav ul li {
+  list-style: none;
+}
+
+.main-nav ul li a,
+.main-nav ul ul li a {
+  color: #251f6e;
+  font-family: var(--dr-font-family);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  display: flex;
+  padding: 0px 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.main-nav ul ul li a {
+  font-size: 28px;
+  padding: 0px 10px;
+  justify-content: start;
+}
+
+.main-nav ul li a::after {
+  content: url("/wp-content/themes/red-acre/assets/images/angle-down.svg");
+  margin-top: 10px;
+  transition-timing-function: ease-in-out;
+}
+.main-nav ul ul li a::after {
+  display: none;
+}
+
+.main-nav ul li a:hover {
+  border-bottom: 3px solid #6371f4;
+  margin-top: 5px;
+  transition-timing-function: ease-in-out;
+}
+
+.main-nav ul ul li a:hover {
+  border-bottom: none;
+  margin-top: 0;
+  color: #6371f4;
+}
+
+.main-nav ul li a:hover::after {
+  content: url("/wp-content/themes/red-acre/assets/images/angle-down.svg");
+  margin-top: -22px;
+  transform: rotate(180deg);
+}
+.main-nav li {
+  position: relative;
+}
+
+.main-nav ul ul {
+  display: none;
+  position: absolute;
+  top: 1.8em;
+  left: 0;
+  z-index: 99999;
+  width: 180px;
+  background: #fff;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+
+.main-nav ul li:hover > ul {
+  display: block;
+}
+.login-signup {
+  gap: 17px;
+  min-width: 250px;
+}
+
+.login-signup button {
+  border-radius: 8px;
+  background: #6371f4;
+  padding: 7px 29px;
+  border: none;
+}
+
+.login-signup a {
+  color: #fff;
+  font-family: var(--dr-font-family);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.login-signup button:hover {
+  background: #251f6e;
+}
+
 .home .hero {
   background-image: url("/wp-content/themes/red-acre/assets/images/HERO.png");
   background-position: 95% 100%;

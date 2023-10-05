@@ -10,32 +10,53 @@
 <body <?php body_class(); ?>>
     <div id="page" class="site ">
         <header>
-            <section class="top-bar container">
-                <div class="logo"><img src="wp-content\themes\red-acre\assets\images\logo.svg" alt="site-logo" srcset=""></div>
-                <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
-                    <div class="container">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'red-acre'); ?>">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                        <?php
-                        wp_nav_menu(array(
-                            'theme_location'  => 'primary',
-                            'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
-                            'container'       => 'div',
-                            'container_class' => 'collapse navbar-collapse',
-                            'container_id'    => 'bs-example-navbar-collapse-1',
-                            'menu_class'      => 'navbar-nav mr-auto',
-                            'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
-                            'walker'          => new WP_Bootstrap_Navwalker(),
-                        ));
-                        ?>
+            <section class="top-bar">
+                <div class="container">
+                    <div class="row py-2 d-flex flex-row justify-content-beetwen align-items-center">
+                        <div class="col logo d-flex align-items-center">
+                            <?php
+                            if (has_custom_logo()) {
+
+                                the_custom_logo(); ?>
+                                <span class="site-title-text"><?php bloginfo(); ?></span>
+                            <?php
+                            } else {
+                            ?>
+                                <a class="site-title-text" href="<?php echo esc_url(home_url('/')); ?>"><span><?php bloginfo(); ?></span></a>
+                            <?php
+
+                            }
+                            ?>
+                        </div>
+                        <div class="col">
+                            <div class="row d-flex flex-row justify-content-end align-items-center flex-nowrap">
+                                <div class="col menu-area">
+                                    <nav class="main-nav">
+                                        <!-- <button class="check-button">
+                                    <div class="menu-icon">
+                                        <div class="bar1"></div>
+                                        <div class="bar2"></div>
+                                        <div class="bar3"></div>
+                                    </div>
+                                </button> -->
+                                        <?php wp_nav_menu(array(
+                                            'theme_location' => 'primary',
+                                            'depth' => 0,
+                                            'menu_class' => 'd-flex flex-column flex-sm-row justify-content-between ',
+                                        )); ?>
+                                    </nav>
+                                </div>
+                                <div class="col login-signup d-flex flex-row ">
+                                    <button><a href="#">Login</a></button>
+                                    <button><a href="#">Sign Up</a></button>
+                                </div>
+                            </div>
+
+
+                        </div>
+
                     </div>
-                </nav>
-                <div class="login-signup">
-                    <button>Login</button>
-                    <button>Sign Up</button>
                 </div>
             </section>
+
         </header>
