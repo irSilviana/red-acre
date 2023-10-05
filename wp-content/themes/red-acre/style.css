@@ -248,8 +248,12 @@ a.toggle-nav {
 }
 
 .home .hero ul {
+  display: flex;
+  flex-direction: column;
   list-style: none;
+  margin-top: 28px;
   padding-left: 0;
+  row-gap: 24px;
 }
 
 .home .hero ul li::before {
@@ -257,9 +261,8 @@ a.toggle-nav {
   color: #6371f4;
   font-weight: bold;
   display: inline-block;
-  width: 0.5em;
+  width: 15px;
   font-size: 64px;
-  line-height: 60.8%;
 }
 
 .home .hero li {
@@ -269,6 +272,10 @@ a.toggle-nav {
   font-style: normal;
   font-weight: 400;
   line-height: 19.456px;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  justify-content: flex-start;
 }
 
 .home h2 {
@@ -355,7 +362,6 @@ a.toggle-nav {
   width: auto;
 }
 
-/* .footer-main-nav h2, */
 ul.footer-nav a {
   color: #8a94f7;
   text-align: left;
@@ -443,7 +449,6 @@ ul.footer-nav a {
 }
 
 /* Media Breakpoints */
-
 @media (min-width: 991px) and (max-width: 1600px) {
   .home .hero {
     min-height: 800px;
@@ -457,7 +462,6 @@ ul.footer-nav a {
 }
 
 @media (max-width: 1024px) {
-  /* .footer-main-nav h2, */
   ul.footer-nav a {
     font-size: 32px;
     margin-bottom: 12px;
@@ -465,7 +469,6 @@ ul.footer-nav a {
 
   ul.sub-menu {
     margin-top: 12px;
-    /* margin-left: 24px; */
   }
 
   ul.footer-nav li li a {
@@ -490,11 +493,6 @@ ul.footer-nav a {
 }
 
 @media (max-width: 768px) {
-  /* .home .hero {
-    background-position: 100% 100%;
-    background-size: 100%;
-  } */
-
   .home .hero {
     background-position: 60% 100%;
     background-size: 500px;

@@ -41,8 +41,9 @@
                                     </nav>
                                 </div>
                                 <div class="col login-signup d-flex flex-row justify-content-end order-1 order-xxl-2">
-                                    <button><a href="#">Log In</a></button>
-                                    <button><a href="#">Sign Up</a></button>
+                                    <button><a href="#"><?php esc_html_e('Log In', 'red-acre') ?>
+                                        </a></button>
+                                    <button><a href="#"><?php esc_html_e('Sign Up', 'red-acre') ?></a></button>
                                 </div>
                             </div>
 

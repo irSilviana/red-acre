@@ -48,13 +48,6 @@
                     'menu_class' => 'footer-nav',
                     'depth' => 2,
                 )) ?>
-                <!-- <h2>
-                    Help
-                </h2>
-                <ul class="footer-nav">
-                    <li>FAQ</li>
-                    <li>Contact Us</li>
-                </ul> -->
             </div>
         </div>
         <div class="container footer-disclosure row order-sm-2">
