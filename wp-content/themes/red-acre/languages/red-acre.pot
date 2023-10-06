@@ -1,0 +1,370 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Red "
+"Acre v1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"POT-Creation-Date: "
+"2023-10-06 11:49+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.4\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: 404.php:9
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:10
+msgid ""
+"Unfortunately, the page "
+"you tried to reach "
+"doesn't exist."
+msgstr ""
+
+#: 404.php:13
+msgid ""
+"How about doing a search?"
+msgstr ""
+
+#: 404.php:16
+msgid "Latest Posts"
+msgstr ""
+
+#: footer.php:54
+msgid ""
+"RISK DISCLOSURE:*The "
+"services and information "
+"provided by The Bored "
+"Traders Club are not "
+"directed at citizens or "
+"residents in the USA."
+msgstr ""
+
+#: functions.php:25
+msgid "Primary menu"
+msgstr ""
+
+#: functions.php:26
+msgid "Footer 1 menu"
+msgstr ""
+
+#: functions.php:27
+msgid "Footer 2 menu"
+msgstr ""
+
+#: functions.php:28
+msgid "Footer 3 menu"
+msgstr ""
+
+#: functions.php:29
+msgid "Footer 4 menu"
+msgstr ""
+
+#: functions.php:30
+msgid "Footer 5 menu"
+msgstr ""
+
+#: functions.php:31
+msgid "Footer 6 menu"
+msgstr ""
+
+#: functions.php:32
+msgid "Legal menu"
+msgstr ""
+
+#: header.php:44
+msgid "Log In"
+msgstr ""
+
+#: header.php:46
+msgid "Sign Up"
+msgstr ""
+
+#: inc/customizer.php:9
+msgid ""
+"Main Page Hero Section"
+msgstr ""
+
+#: inc/customizer.php:26
+msgid "Hero Image"
+msgstr ""
+
+#: inc/customizer.php:27
+msgid ""
+"Recommended size 1130 x "
+"958 pixels"
+msgstr ""
+
+#: inc/customizer.php:38
+msgid ""
+"Please, add some title"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "Hero Title"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid ""
+"Please, type your title "
+"here"
+msgstr ""
+
+#: inc/customizer.php:58
+msgid ""
+"Please, add some subtitle"
+msgstr ""
+
+#: inc/customizer.php:66
+msgid "Hero Subtitle"
+msgstr ""
+
+#: inc/customizer.php:67
+msgid ""
+"Please, type your "
+"subtitle here"
+msgstr ""
+
+#: inc/customizer.php:78
+msgid ""
+"Please, add some list_1"
+msgstr ""
+
+#: inc/customizer.php:86
+msgid "Hero list 1"
+msgstr ""
+
+#: inc/customizer.php:87
+msgid ""
+"Please, type your first "
+"list here"
+msgstr ""
+
+#: inc/customizer.php:97
+msgid ""
+"Please, add some list_2"
+msgstr ""
+
+#: inc/customizer.php:105
+msgid "Hero list 2"
+msgstr ""
+
+#: inc/customizer.php:106
+msgid ""
+"Please, type your second "
+"list here"
+msgstr ""
+
+#: inc/customizer.php:116
+msgid ""
+"Please, add some list_3"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Hero list 3"
+msgstr ""
+
+#: inc/customizer.php:125
+msgid ""
+"Please, type your third "
+"list here"
+msgstr ""
+
+#: inc/customizer.php:135
+msgid ""
+"Social Media Section"
+msgstr ""
+
+#: inc/customizer.php:153
+msgid "Icon 1"
+msgstr ""
+
+#: inc/customizer.php:154
+msgid "Social media icon 1"
+msgstr ""
+
+#: inc/customizer.php:172
+msgid "Social Media 1 URL"
+msgstr ""
+
+#: inc/customizer.php:173
+#: inc/customizer.php:212
+#: inc/customizer.php:251
+#: inc/customizer.php:290
+msgid ""
+"Please, type your social "
+"media URL address here"
+msgstr ""
+
+#: inc/customizer.php:192
+msgid "Icon 2"
+msgstr ""
+
+#: inc/customizer.php:193
+msgid "Social media icon 2"
+msgstr ""
+
+#: inc/customizer.php:211
+msgid "Social Media 2 URL"
+msgstr ""
+
+#: inc/customizer.php:231
+msgid "Icon 3"
+msgstr ""
+
+#: inc/customizer.php:232
+msgid "Social media icon 3"
+msgstr ""
+
+#: inc/customizer.php:250
+msgid "Social Media 3 URL"
+msgstr ""
+
+#: inc/customizer.php:270
+msgid "Icon 4"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "Social media icon 4"
+msgstr ""
+
+#: inc/customizer.php:289
+msgid "Social Media 4 URL"
+msgstr ""
+
+#: inc/customizer.php:300
+msgid "Disclosure Settings"
+msgstr ""
+
+#: inc/customizer.php:301
+msgid ""
+"Disclosure section on "
+"the footer area"
+msgstr ""
+
+#: inc/customizer.php:309
+msgid ""
+"RISK DISCLOSURE:*The "
+"Services And Information "
+"Provided By The Bored "
+"Traders Club Are Not "
+"Directed At Citizens Or "
+"Residents In The USA."
+msgstr ""
+
+#: inc/customizer.php:317
+msgid ""
+"Disclosure Information"
+msgstr ""
+
+#: inc/customizer.php:318
+msgid ""
+"Please, type your full "
+"disclosure here"
+msgstr ""
+
+#: index.php:8 index.php:11
+#: index.php:12
+#: index.php:13
+msgid ""
+"Please type some title"
+msgstr ""
+
+#: index.php:9
+msgid ""
+"Please type some text "
+"for the subtitle"
+msgstr ""
+
+#: index.php:51
+msgid ""
+"Tools to Compliment Your "
+"Trading"
+msgstr ""
+
+#: index.php:54
+msgid ""
+"Access news & economic "
+"calendar, technical "
+"indicators & charts, "
+"Forex Calculators, "
+"educational resources "
+"and many more tools to "
+"help you excel."
+msgstr ""
+
+#: index.php:60
+msgid " Economic Calendar"
+msgstr ""
+
+#: index.php:61
+msgid ""
+" Access all major events "
+"& economic news that "
+"impact financial markets."
+msgstr ""
+
+#: index.php:65
+msgid "Trading Calculators"
+msgstr ""
+
+#: index.php:66
+msgid ""
+" Make trading "
+"calculations in real-"
+"time & forecast the "
+"potential growth of your "
+"account."
+msgstr ""
+
+#: index.php:70
+msgid ""
+" Educational Resources"
+msgstr ""
+
+#: index.php:71
+msgid ""
+" From top tips & trading "
+"psychology to more ways "
+"to earn, we make "
+"learning more fun."
+msgstr ""
