@@ -3,7 +3,7 @@ Theme Name: Red Acre
 Theme URI: https://irfanisilviana.com/themes/red-acre/
 Author: Irfani Silviana
 Author URI: https://irfanisilviana.com/
-Description: Red Acre is a basic theme for the More project. This is is for the assignment purpose only.
+Description: Red Acre is a basic theme for the More project. This theme is for the assignment purpose only. You can edit the hero section of the main page, the social media icons & links, and the disclosure section.
 Requires at least: 6.0
 Tested up to: 6.3
 Requires PHP: 5.6
@@ -11,17 +11,10 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: red-acre
-Tags: one-column, custom-menu, custom-logo, featured-images, translation-ready
+Tags: one-column, custom-menu, custom-logo, featured-images, translation-ready, theme-options
 
 Red Acre WordPress Theme, (C) 2020 WordPress.org
 Red Acre is distributed under the terms of the GNU GPL.
-*/
-
-/* Font Family needed
-
-Google: Dongle | Inter
-Weight: 400, 700 | 400,600
-
 */
 
 /* font-weight: 400;  */

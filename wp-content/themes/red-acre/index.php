@@ -54,8 +54,8 @@
                         <?php esc_html_e('Access news & economic calendar, technical indicators & charts, Forex Calculators, educational resources and many more tools to help you excel.', 'red-acre') ?></p>
                 </div>
                 <div class="col-12">
-                    <div class="row d-flex flex-wrap flex-column flex-lg-row justify-content-between align-items-center services-items">
-                        <div class="col col-lg-3 text-center service-item">
+                    <div class="row d-flex flex-wrap flex-column flex-lg-row justify-content-around align-items-center services-items">
+                        <div class="col col-lg-4 text-center service-item">
                             <img src="/wp-content/uploads/2023/10/economic-calendar.png" alt="">
                             <h3>
                                 Economic Calendar
@@ -64,7 +64,7 @@
                                 Access all major events & economic news that impact financial markets.
                             </p>
                         </div>
-                        <div class="col col-lg-3 text-center service-item">
+                        <div class="col col-lg-4 text-center service-item">
                             <img src="/wp-content/uploads/2023/10/trading-calculator.png" alt="">
                             <h3>
                                 Trading Calculators
@@ -73,7 +73,7 @@
                                 Make trading calculations in real-time & forecast the potential growth of your account.
                             </p>
                         </div>
-                        <div class="col col-lg-3 text-center service-item">
+                        <div class="col col-lg-4 text-center service-item">
                             <img src="/wp-content/uploads/2023/10/educational-resources.png" alt="">
                             <h3>
                                 Educational Resources
