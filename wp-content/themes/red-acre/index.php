@@ -57,34 +57,21 @@
                     <div class="row d-flex flex-wrap flex-column flex-lg-row justify-content-around align-items-center services-items">
                         <div class="col col-lg-4 text-center service-item">
                             <img src="/wp-content/uploads/2023/10/economic-calendar.png" alt="">
-                            <h3>
-                                Economic Calendar
-                            </h3>
-                            <p>
-                                Access all major events & economic news that impact financial markets.
-                            </p>
+                            <h3><?php esc_html_e(' Economic Calendar', 'red-acre') ?></h3>
+                            <p><?php esc_html_e(' Access all major events & economic news that impact financial markets.', 'red-acre') ?></p>
                         </div>
                         <div class="col col-lg-4 text-center service-item">
                             <img src="/wp-content/uploads/2023/10/trading-calculator.png" alt="">
-                            <h3>
-                                Trading Calculators
-                            </h3>
-                            <p>
-                                Make trading calculations in real-time & forecast the potential growth of your account.
-                            </p>
+                            <h3><?php esc_html_e('Trading Calculators', 'red-acre') ?></h3>
+                            <p><?php esc_html_e(' Make trading calculations in real-time & forecast the potential growth of your account.', 'red-acre') ?></p>
                         </div>
                         <div class="col col-lg-4 text-center service-item">
                             <img src="/wp-content/uploads/2023/10/educational-resources.png" alt="">
-                            <h3>
-                                Educational Resources
-                            </h3>
-                            <p>
-                                From top tips & trading psychology to more ways to earn, we make learning more fun.
-                            </p>
+                            <h3><?php esc_html_e(' Educational Resources', 'red-acre') ?></h3>
+                            <p><?php esc_html_e(' From top tips & trading psychology to more ways to earn, we make learning more fun.', 'red-acre') ?></p>
                         </div>
                     </div>
                 </div>
-
             </section>
         </main>
     </div>
